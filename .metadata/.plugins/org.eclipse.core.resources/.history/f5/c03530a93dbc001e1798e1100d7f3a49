@@ -1,0 +1,5 @@
+package com.hibernateDemo.hiber;
+
+public class Alien {
+
+}

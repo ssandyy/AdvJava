@@ -1,0 +1,5 @@
+package jdbconnection;
+
+public class InsertQueryJdbc {
+
+}

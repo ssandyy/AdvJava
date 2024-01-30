@@ -1,0 +1,16 @@
+package com.hibernateDemo.hiber;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Alien ssandyy = new Alien();
+        ssandyy.setAid(101);
+        ssandyy.setName("sandeep");
+        ssandyy.setColor("blue");
+    }
+}

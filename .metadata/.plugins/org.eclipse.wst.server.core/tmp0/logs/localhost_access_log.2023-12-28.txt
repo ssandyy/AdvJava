@@ -1,0 +1,10 @@
+127.0.0.1 - - [28/Dec/2023:20:02:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:20:02:04 +0530] "GET /Cbse-App/ HTTP/1.1" 200 7943
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:20:02:04 +0530] "GET /Cbse-App/all_component/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:20:02:04 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:20:06:01 +0530] "GET /Cbse-App/home.jsp HTTP/1.1" 200 13118
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:20:06:01 +0530] "GET /Cbse-App/all_component/images/logo.png HTTP/1.1" 200 76236
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:20:06:01 +0530] "GET /Cbse-App/all_component/images/cbse_name.png HTTP/1.1" 200 53396
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:20:06:01 +0530] "GET /Cbse-App/all_component/images/bnr8.jpg HTTP/1.1" 200 131679
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:20:06:03 +0530] "GET /Cbse-App/addMarks.jsp HTTP/1.1" 200 10420
+0:0:0:0:0:0:0:1 - - [28/Dec/2023:21:20:25 +0530] "GET /Cbse-App/addMarks.jsp?studentid=9&classid=4&save=Insert+Data HTTP/1.1" 200 10420

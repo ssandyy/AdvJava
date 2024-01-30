@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
+    <fullyQualifiedTypeName name="com.DAO.StudnetDaoImp"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="com.DAO.AddMarkDao"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="com.user.servlet.AddStudentMarkServlet"/>
+    <fullyQualifiedTypeName name="com.entities.AddMarks"/>
+    <fullyQualifiedTypeName name="com.DAO.AddMarkDaoImp"/>
+    <fullyQualifiedTypeName name="com.DAO.StudentDaoImp"/>
+    <fullyQualifiedTypeName name="com.entities.Student"/>
+    <fullyQualifiedTypeName name="com.entity.Appointment"/>
+    <fullyQualifiedTypeName name="com.entities.Classes"/>
+    <fullyQualifiedTypeName name="com.DB.DbConnect"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="com.DAO.ResultsDaoImp"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="com.entities.Results"/>
+    <fullyQualifiedTypeName name="javax.security.auth.login.Configuration"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.Session"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,18 @@
+1703225701689	Delete element
+1703226780636	Move 'servlet' to 'admin'
+1703226810301	Move 'AddDoctor.java' to 'servlet'
+1703226869776	Move 'AddSpecialist.java' to 'servlet'
+1703227021104	Move 'AdminLogout.java' to 'servlet'
+1703227055252	Move 'DeleteDoctor.java' to 'servlet'
+1703227116146	Move 'UpdateDoctor.java' to 'servlet'
+1703227119311	Move 'AppointmentDAO.java' to 'DAO'
+1703228472630	Rename resource 'DAO'
+1703228486843	Rename resource 'DB'
+1703230841547	Move folder
+1703231703473	Rename package 'com.entities'
+1703231735054	Move 'admin' to 'com'
+1703231738614	Move 'doctor' to 'com'
+1703231878861	Delete element
+1703231887461	Move 5 resources to 'servlet'
+1703238837532	Move 'edit_profile.jsp' to 'webapp'
+1703238865400	Rename resource 'index.jsp'

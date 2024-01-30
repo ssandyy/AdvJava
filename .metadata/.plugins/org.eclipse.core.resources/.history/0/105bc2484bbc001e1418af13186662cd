@@ -1,0 +1,19 @@
+package com.hibernateDemo.hiber;
+
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Alien ssandyy = new Alien();
+        ssandyy.setAid(101);
+        ssandyy.setName("sandeep");
+        ssandyy.setColor("blue");
+        
+        
+//        Configuration conf = new Configuration().configure().addAnnotatedClass(Alien.class);
+        //ServiceRegistry reg = new ServiceRegistryBuilder().applySettings()
+        Session
+    }
+}

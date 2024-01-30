@@ -1,0 +1,10 @@
+127.0.0.1 - - [25/Jan/2024:23:43:30 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:23:43:31 +0530] "GET /FirstServletWebApp/index.html HTTP/1.1" 200 732
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:23:43:40 +0530] "GET /FirstServletWebApp/add?n1=12&n2=474 HTTP/1.1" 405 751
+127.0.0.1 - - [25/Jan/2024:23:45:26 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:23:45:26 +0530] "GET /FirstServletWebApp/ HTTP/1.1" 200 732
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:23:45:33 +0530] "GET /FirstServletWebApp/add?n1=15&n2=54 HTTP/1.1" 200 22
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:23:45:46 +0530] "POST /FirstServletWebApp/addpost HTTP/1.1" 404 781
+127.0.0.1 - - [25/Jan/2024:23:48:23 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:23:48:41 +0530] "POST /FirstServletWebApp/addpost HTTP/1.1" 200 23
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:23:48:55 +0530] "GET /FirstServletWebApp/addget?n1=85&n2=24 HTTP/1.1" 200 23
