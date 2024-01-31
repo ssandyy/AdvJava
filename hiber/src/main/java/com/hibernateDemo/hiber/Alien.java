@@ -1,15 +1,32 @@
 package com.hibernateDemo.hiber;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Alien")
+/* @Table(name = "Alien") */
 public class Alien {
-	
-    private int aid;
+	@Id
+	private int aid;
     private String name;
     private String color;
+    
+    
+    
+	
+    public Alien() {
+		super();
+	}
+
+	public Alien(int aid, String name, String color) {
+		super();
+		this.aid = aid;
+		this.name = name;
+		this.color = color;
+	}
+
+	
 
     public int getAid() {
         return aid;

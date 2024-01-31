@@ -6,23 +6,24 @@
 </head>
 <body>
 	<form action="add">
-		<input type="text" name="n1" placeholder="enter first number" /> <input
-			type="text" name="n2" placeholder="enter Second number" />
+		<input type="text" name="n1" placeholder="enter first number" /> 
+		<input type="text" name="n2" placeholder="enter Second number" />
 		<button>Submit</button>
 	</form>
 	
 	<!-- for doPost() -->
 	<form action="addpost" method="post">
-		<input type="text" name="n1" placeholder="enter first number" /> <input
-			type="text" name="n2" placeholder="enter Second number" />
+		<input type="text" name="n1" placeholder="enter first number" /> 
+		<input type="text" name="n2" placeholder="enter Second number" />
 		<button>Submit</button>
 	</form>
 	
 	<!-- for doGet()   -->
 	<form action="addget" method="get">
-		<input type="text" name="n1" placeholder="enter first number" /> <input
-			type="text" name="n2" placeholder="enter Second number" />
+		<input type="text" name="n1" placeholder="enter first number" /> 
+		<input type="text" name="n2" placeholder="enter Second number" />
 		<button>Submit</button>
 	</form>
+	
 </body>
 </html>
