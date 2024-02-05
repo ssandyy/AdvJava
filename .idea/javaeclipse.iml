@@ -133,7 +133,12 @@
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="HibernateCurd:bin:hibernate.cfg.xml" value="3c461f83-67c9-4865-b030-fbd572b371d5" />
+          <unit-entry name="HibernateCurd:src:hibernate.cfg.xml" value="28aa9b1a-4f47-4705-9779-2595992dd23f" />
+          <unit-entry name="hiber:src:main:java:hibernate.cfg.xml" value="4bbf570d-54e3-4f51-8547-fa6aaaac1922" />
+          <unit-entry name="hiber:target:classes:hibernate.cfg.xml" value="7ab5f2c9-3395-4fac-b139-7d05c8343467" />
+        </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/HibernateCurd/bin/hibernate.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/HibernateCurd/src/hibernate.cfg.xml" />

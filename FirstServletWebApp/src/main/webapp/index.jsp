@@ -17,7 +17,7 @@
 		<input type="text" name="n2" placeholder="enter Second number" />
 		<button>Submit</button>
 	</form>
-	
+	</nbsp>
 	<!-- for doGet()   -->
 	<form action="addget" method="get">
 		<input type="text" name="n1" placeholder="enter first number" /> 

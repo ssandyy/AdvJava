@@ -1,6 +1,0 @@
-package com.ssandyy.springmvcboot;
-
-@Controller
-public class HomeController {
-	
-}
