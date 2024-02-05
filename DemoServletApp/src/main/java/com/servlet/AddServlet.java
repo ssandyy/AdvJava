@@ -5,9 +5,11 @@ import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class AddServlet extends HttpServlet{
 	
@@ -21,9 +23,24 @@ public class AddServlet extends HttpServlet{
 		PrintWriter out = res.getWriter();
 		out.print("result of "+num1+" + "+num2+" : " +sum);
 		
-		// SqrtServlet linkup
-		req.setAttribute("sum", sum);
-		RequestDispatcher rd = req.getRequestDispatcher("sq");
-		rd.forward(req, res);
+		
+		// SqrtServlet linkup  with Request Dispatcher     URL rewriting
+		 /* req.setAttribute("sum", sum);
+		 * RequestDispatcher rd = req.getRequestDispatcher("sq"); rd.forward(req, res);
+		 */
+		
+		// Session Management
+		/*
+		 * HttpSession session = req.getSession(); session.setAttribute("sum", sum);
+		 */
+		
+		//Cookie Management
+		Cookie cookie = new Cookie("sum", sum + "");
+		res.addCookie(cookie);
+		
+		res.sendRedirect("sq");
+		
+		//sendRedirect linkeup    URL rewriting
+		//res.sendRedirect("sq?sum="+sum);
 	}
 }
