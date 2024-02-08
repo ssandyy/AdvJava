@@ -25,7 +25,7 @@ public class SqrtServlet extends HttpServlet {
 		 * res.getWriter(); out.println("SquareRoot of sum of entered number: " + sr);
 		 */
 		  
-		
+		 
 		  
 		  // Session Management
 			/*

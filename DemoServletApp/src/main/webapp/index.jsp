@@ -5,7 +5,7 @@
 <title>Add 2 numbers in different ways..!</title>
 </head>
 <body>
-	<form action="add">
+	<form action="svcgct">
 		<input type="text" name="n1" placeholder="enter first number (service method)" /> 
 		<input type="text" name="n2" placeholder="enter Second number(service method)" />
 		<button>Submit</button>
