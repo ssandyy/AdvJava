@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\ssandyy\javaeclipse\jdbconnection"/>
 			<item value="C:\ssandyy\javaeclipse\JSTLDemo"/>
 			<item value="C:\ssandyy\javaeclipse\hospital"/>
 		</list>
@@ -27,6 +28,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ssandyy.ServletJspDemo"/>
 			<item value="com.jstl.JSTLDemoApp"/>
 			<item value="com.hibernateDemo.hiber"/>
 			<item value="com.springmvc"/>
@@ -34,12 +36,14 @@
 			<item value="com.cbse.Cbse_App"/>
 		</list>
 		<list key="groupId">
+			<item value="com.ssandyy"/>
 			<item value="com.jstl"/>
 			<item value="com.hibernateDemo"/>
 			<item value="com.springmvc"/>
 			<item value="com.cbse"/>
 		</list>
 		<list key="artifactId">
+			<item value="ServletJspDemo"/>
 			<item value="JSTLDemoApp"/>
 			<item value="hiber"/>
 			<item value="DemoMVC"/>

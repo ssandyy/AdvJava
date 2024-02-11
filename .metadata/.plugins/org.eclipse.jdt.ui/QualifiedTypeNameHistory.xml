@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
     <fullyQualifiedTypeName name="com.DAO.StudnetDaoImp"/>
     <fullyQualifiedTypeName name="com.DAO.AddMarkDao"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="com.user.servlet.AddStudentMarkServlet"/>
     <fullyQualifiedTypeName name="com.entities.AddMarks"/>
     <fullyQualifiedTypeName name="com.DAO.AddMarkDaoImp"/>
@@ -17,7 +15,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.DAO.ResultsDaoImp"/>
     <fullyQualifiedTypeName name="com.entities.Results"/>
     <fullyQualifiedTypeName name="javax.security.auth.login.Configuration"/>
@@ -35,4 +32,9 @@
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.login.dao.LoginDao"/>
 </qualifiedTypeNameHistroy>
