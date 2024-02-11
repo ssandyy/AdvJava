@@ -16,7 +16,7 @@ public class AlienDao {
 		 */
 		
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/neonhiber", "root", "");
 			Statement st = connection.createStatement();
 			ResultSet rs = st.executeQuery("select * from alien_test where aidtest="+aidtest);
