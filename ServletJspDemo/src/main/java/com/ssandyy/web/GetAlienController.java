@@ -16,11 +16,11 @@ import com.ssandyy.web.model.Alien;
  * Servlet implementation class GetAlienController
  */
 public class GetAlienController extends HttpServlet {
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws IOException, ServletException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		int aidtest = Integer.parseInt(request.getParameter("aidtest"));
 		AlienDao dao = new AlienDao();
 		Alien a1 = dao.getAlien(aidtest);
+		
 		request.setAttribute("alien", a1);
 
 		HttpSession session = request.getSession();
