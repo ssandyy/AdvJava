@@ -1,4 +1,5 @@
+cache-frequency=1
+create-server=true
 do-not-show-remove-module-warning=true
 eclipse.preferences.version=1
 restart=1
-show-on-activity=false

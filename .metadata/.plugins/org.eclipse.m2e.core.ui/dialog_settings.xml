@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\ssandyy\javaeclipse\springmvcboot"/>
+			<item value="C:\ssandyy\javaeclipse\DemoRestApi"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,7 +15,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="internal"/>
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -25,13 +27,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.ssandyy.FileUploadDemo"/>
+			<item value="com.ssandyy.demospringproject"/>
+			<item value="com.ssandyy.DemoRest"/>
+			<item value="com.ssandyy.DemoRestApi"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ssandyy"/>
 		</list>
 		<list key="artifactId">
-			<item value="FileUploadDemo"/>
+			<item value="demospringproject"/>
+			<item value="DemoRest"/>
+			<item value="DemoRestApi"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -67,5 +73,20 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="com.restapi"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="DemoRest"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

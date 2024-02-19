@@ -19,6 +19,7 @@ public class FileUpload extends HttpServlet {
 			List<FileItem> multifiles = sf.parseRequest(request);
 			for(FileItem item : multifiles) {
 				item.write(new File("C:/ssandyy/javaeclipse/FileUploadDemo/img/"+item.getFieldName()));
+				
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

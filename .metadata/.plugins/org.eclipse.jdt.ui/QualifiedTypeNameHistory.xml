@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="com.DB.DbConnect"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.DAO.ResultsDaoImp"/>
     <fullyQualifiedTypeName name="com.entities.Results"/>
     <fullyQualifiedTypeName name="javax.security.auth.login.Configuration"/>
@@ -38,7 +37,19 @@
     <fullyQualifiedTypeName name="com.login.dao.LoginDao"/>
     <fullyQualifiedTypeName name="org.apache.commons.fileupload.disk.DiskFileItemFactory"/>
     <fullyQualifiedTypeName name="org.apache.commons.fileupload.servlet.ServletFileUpload"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.apache.commons.fileupload.FileItem"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.ssandyy.DemoRestApi.Alien"/>
+    <fullyQualifiedTypeName name="jakarta.xml.bind.annotation.XmlRootElement"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.Path"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.GET"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.Produces"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.core.MediaType"/>
 </qualifiedTypeNameHistroy>
