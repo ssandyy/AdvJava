@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="alien" class="com.ssandyy.DemoSpring.Alien" scope="prototype" >
+			<property name="name" value="sandeep"></property>
+			<property name="laptop" ref="laptop"></property>
+			<constructor-arg value="12"></constructor-arg>     <!--  Construtor injection-->
+		</bean>
+		
+		<bean id="laptop" class="com.ssandyy.DemoSpring.Laptop"></bean>
+        <bean id="desktop" class="com.ssandyy.DemoSpring.Desktop"></bean>
+ </beans>

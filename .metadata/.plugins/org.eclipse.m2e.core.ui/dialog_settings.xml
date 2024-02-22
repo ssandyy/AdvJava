@@ -15,7 +15,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<item key="catalog" value="internal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -27,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.ssandyy.DemoSpring"/>
 			<item value="com.ssandyy.demospringproject"/>
 			<item value="com.ssandyy.DemoRest"/>
 			<item value="com.ssandyy.DemoRestApi"/>
@@ -35,6 +36,7 @@
 			<item value="com.ssandyy"/>
 		</list>
 		<list key="artifactId">
+			<item value="DemoSpring"/>
 			<item value="demospringproject"/>
 			<item value="DemoRest"/>
 			<item value="DemoRestApi"/>
